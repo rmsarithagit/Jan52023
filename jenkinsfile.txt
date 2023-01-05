@@ -1,0 +1,23 @@
+pipeline
+{
+agent any
+stages
+{
+ stage( 'commit')
+ {
+   steps
+    {
+     echo " source code download fron Git Hub....."
+      }
+   }
+stage( 'Build')
+ {
+   steps
+    {
+     echo " This project is build and run using maven tool."
+      }
+   }
+  }
+}
+
+
